@@ -6,6 +6,11 @@ buildscript {
 
 plugins {
     id 'java'
+    id 'application'
+}
+
+application {
+    mainClass.set('ru.netology.dsw.dsl.RevenueAlertsApp')
 }
 
 group 'org.example'
